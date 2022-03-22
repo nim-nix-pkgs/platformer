@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-platformer-master.flake = false;
+  inputs.src-platformer-master.ref   = "refs/heads/master";
   inputs.src-platformer-master.owner = "def-";
-  inputs.src-platformer-master.ref   = "master";
   inputs.src-platformer-master.repo  = "nim-platformer";
   inputs.src-platformer-master.type  = "github";
   
