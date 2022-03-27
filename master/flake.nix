@@ -11,6 +11,7 @@
   inputs.src-platformer-master.ref   = "refs/heads/master";
   inputs.src-platformer-master.owner = "def-";
   inputs.src-platformer-master.repo  = "nim-platformer";
+  inputs.src-platformer-master.dir   = "";
   inputs.src-platformer-master.type  = "github";
   
   inputs."sdl2".owner = "nim-nix-pkgs";
