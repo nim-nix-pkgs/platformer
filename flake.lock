@@ -3,20 +3,22 @@
     "basic2d": {
       "inputs": {
         "flakeNimbleLib": [
+          "platformer-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "platformer-master",
           "nixpkgs"
         ],
         "src-basic2d-master": "src-basic2d-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1651917742,
-        "narHash": "sha256-aPKcL1J1px9xGf9Iqyvw2xwBoY1/422gfc/PLQEXhBk=",
+        "lastModified": 1651555259,
+        "narHash": "sha256-Dp0//PLiXEsZ+7d0jetWIkJMO+LwRA6waELb+VHNhLU=",
         "owner": "nim-nix-pkgs",
         "repo": "basic2d",
-        "rev": "7158d62ef10cbcf89191cb8a57e289770e934768",
+        "rev": "afb2e5191dccb84b688bae5eb8014fffc468b2fd",
         "type": "github"
       },
       "original": {
@@ -59,22 +61,51 @@
         "type": "indirect"
       }
     },
-    "root": {
+    "platformer-master": {
       "inputs": {
         "basic2d": "basic2d",
-        "flakeNimbleLib": "flakeNimbleLib",
-        "nixpkgs": "nixpkgs",
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
         "sdl2": "sdl2",
         "src-platformer-master": "src-platformer-master",
         "strfmt": "strfmt"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1651591407,
+        "narHash": "sha256-iJikQIvufMVn7JtQnUQ4F/nouNVWKnMYW0n8DsSkqQg=",
+        "owner": "nim-nix-pkgs",
+        "repo": "platformer",
+        "rev": "73983cc52e1e921af70aabcf55ee3f2e802bc461",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "platformer",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flakeNimbleLib": "flakeNimbleLib",
+        "nixpkgs": "nixpkgs",
+        "platformer-master": "platformer-master"
       }
     },
     "sdl2": {
       "inputs": {
         "flakeNimbleLib": [
+          "platformer-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "platformer-master",
           "nixpkgs"
         ],
         "src-sdl2-v2_0_3": "src-sdl2-v2_0_3"
@@ -167,20 +198,22 @@
     "strfmt": {
       "inputs": {
         "flakeNimbleLib": [
+          "platformer-master",
           "flakeNimbleLib"
         ],
         "nixpkgs": [
+          "platformer-master",
           "nixpkgs"
         ],
         "src-strfmt-master": "src-strfmt-master"
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1651918483,
-        "narHash": "sha256-1BAT66JnNtAo2ucoVulaEvbosjDS+SoYLR6ZnJ+yBc8=",
+        "lastModified": 1651556072,
+        "narHash": "sha256-KokRzPLJTO39MZBkXePNeEkP72tp3E7MH3X0wGAFdKo=",
         "owner": "nim-nix-pkgs",
         "repo": "strfmt",
-        "rev": "1c44742f0ed329a9749d9bc691884315f27bdd8b",
+        "rev": "b44c7339899e79a762748e1d756a673f99f8b7a6",
         "type": "github"
       },
       "original": {
